@@ -34,9 +34,9 @@ export const GitClone = () => {
                     <h1 style={{ textAlign: "center" }}>{val.name}</h1>
                     <br></br>
                     <p>{val.bio}</p>
-                    <button>Follow</button>&emsp;
+                    <button className="follow">Follow</button>&emsp;
                     <br></br>
-                    <div className="follow">
+                    <div className="extraData">
                       <h4>Followers: {val.followers}</h4>
                       <h4>Following: {val.following}</h4>
                       <h4>Repositories:{val.public_repos}</h4>
@@ -61,7 +61,7 @@ export const GitClone = () => {
         {reposData.map((value) => {
           return (
             <div className="reposList">
-              <span>{value.repoName}</span>
+              <span className="name">{value.repoName}</span>
               <span className="visibilty">{value.visibilty}</span>
               <p>
               <span class="dot"></span><span>{value.techStack}</span>

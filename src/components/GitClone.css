@@ -1,16 +1,16 @@
 * {
   padding: 10px;
-  
 }
-body{
-    background-color: rgb(237, 235, 235);
+body {
+  background-color: rgb(237, 235, 235);
 }
 .container {
   display: flex;
 }
 .intro {
+    margin: auto;
+    padding: 10px;
   width: 40%;
-  height: 100vh;
 }
 .logoDiv {
   display: flex;
@@ -19,14 +19,20 @@ body{
 }
 .logo {
   background: rgb(173, 55, 154);
-  width: 170px;
-  height: 170px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-size: 50px;
+}
+.follow {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  color: black;
 }
 .repos {
   width: 60%;
@@ -55,6 +61,10 @@ body{
 .reposList {
   border-bottom: 1px solid black;
 }
+.name {
+  font-size: 25px;
+  font-weight: 600;
+}
 .visibilty {
   border: 1px solid rgb(48, 47, 47);
   border-radius: 30px;
@@ -67,3 +77,50 @@ body{
   border-radius: 50%;
   display: inline-block;
 }
+/* ...................adding media query for responsiveness.......... */
+@media only screen and (max-width: 800px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    background: rgb(173, 55, 154);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 900px) {
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .intro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo {
+      background: rgb(173, 55, 154);
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 50px;
+    }
+  }
