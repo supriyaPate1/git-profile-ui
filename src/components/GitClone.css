@@ -1,0 +1,26 @@
+*{
+    padding: 10px;
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+}
+.intro{
+    border: 1px solid red;
+    width: 40%;
+    height: 100vh;
+}
+.logo{
+    background-color: rgb(129, 36, 109);
+    border: 1px solid red;
+    /* height: 600px; */
+    /* border-radius: 50%; */
+
+}
+.repos{
+    border: 1px solid rgb(48, 155, 41);
+    width: 60%;
+}
+.reposList{
+    border-bottom:1px solid black;
+}

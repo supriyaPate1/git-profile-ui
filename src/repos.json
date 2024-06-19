@@ -1,0 +1,26 @@
+[
+   { "repoName":"postfolio",
+    "visibilty":"public",
+    "techStack":"javascript",
+    "updation":"last week"},
+    {
+        "repoName":"clone",
+    "visibilty":"public",
+    "techStack":"",
+    "updation":"day before"
+    },
+    {"repoName":"todo",
+    "visibilty":"public",
+    "techStack":"html",
+    "updation":"last week"},
+    {
+        "repoName":"landingpage",
+    "visibilty":"public",
+    "techStack":"html",
+    "updation":"last week"
+    },
+    {"repoName":"webpaage",
+    "visibilty":"public",
+    "techStack":"html",
+    "updation":"last week"}
+]
