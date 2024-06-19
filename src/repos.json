@@ -1,26 +1,32 @@
 [
-   { "repoName":"postfolio",
-    "visibilty":"public",
-    "techStack":"javascript",
-    "updation":"last week"},
-    {
-        "repoName":"clone",
-    "visibilty":"public",
-    "techStack":"",
-    "updation":"day before"
-    },
-    {"repoName":"todo",
-    "visibilty":"public",
-    "techStack":"html",
-    "updation":"last week"},
-    {
-        "repoName":"landingpage",
-    "visibilty":"public",
-    "techStack":"html",
-    "updation":"last week"
-    },
-    {"repoName":"webpaage",
-    "visibilty":"public",
-    "techStack":"html",
-    "updation":"last week"}
+  {
+    "repoName": "postfolio",
+    "visibilty": "public",
+    "techStack": "javascript",
+    "updation": "last week 15 june"
+  },
+  {
+    "repoName": "clone",
+    "visibilty": "public",
+    "techStack": "html",
+    "updation": "day before on 9th july"
+  },
+  {
+    "repoName": "todo",
+    "visibilty": "public",
+    "techStack": "html",
+    "updation": "last week"
+  },
+  {
+    "repoName": "landingpage",
+    "visibilty": "public",
+    "techStack": "html",
+    "updation": "last week on 10 june"
+  },
+  {
+    "repoName": "webpaage",
+    "visibilty": "public",
+    "techStack": "html",
+    "updation": "last week 11 june"
+  }
 ]

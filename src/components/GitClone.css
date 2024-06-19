@@ -1,26 +1,69 @@
-*{
-    padding: 10px;
+* {
+  padding: 10px;
+  
 }
-.container{
-    border: 1px solid black;
-    display: flex;
+body{
+    background-color: rgb(237, 235, 235);
 }
-.intro{
-    border: 1px solid red;
-    width: 40%;
-    height: 100vh;
+.container {
+  display: flex;
 }
-.logo{
-    background-color: rgb(129, 36, 109);
-    border: 1px solid red;
-    /* height: 600px; */
-    /* border-radius: 50%; */
-
+.intro {
+  width: 40%;
+  height: 100vh;
 }
-.repos{
-    border: 1px solid rgb(48, 155, 41);
-    width: 60%;
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.reposList{
-    border-bottom:1px solid black;
+.logo {
+  background: rgb(173, 55, 154);
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+}
+.repos {
+  width: 60%;
+  padding-bottom: 10px;
+}
+.topBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.searchBar {
+  width: 60%;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.buttons button {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+.reposList {
+  border-bottom: 1px solid black;
+}
+.visibilty {
+  border: 1px solid rgb(48, 47, 47);
+  border-radius: 30px;
+  padding: 5px;
+}
+.dot {
+  height: 1px;
+  width: 1px;
+  background-color: #b56a6a;
+  border-radius: 50%;
+  display: inline-block;
 }

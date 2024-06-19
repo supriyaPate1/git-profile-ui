@@ -22,13 +22,14 @@ export const GitClone = () => {
   return (
     <div className="container">
       <div className="intro">
-        <div>
+        
           {introData &&
             introData.map((val, i) => {
               return (
                 <div className="DataDiv" key={i}>
                   <div className="leftDiv">
-                    <div className="logo"></div>
+                    <div className="logoDiv"><div className="logo">S</div></div>
+                    
                     <br></br>
                     <h1 style={{ textAlign: "center" }}>{val.name}</h1>
                     <br></br>
@@ -44,13 +45,28 @@ export const GitClone = () => {
                 </div>
               );
             })}
-        </div>
+        
       </div>
       <div className="repos">
+        <section className="topBar">
+            <div className="searchBar">
+                <input className="search" placeholder="search..."/>
+            </div>
+            <div className="buttons">
+                <button>Type</button>
+                <button> Language</button>
+                <button>Sort</button>
+            </div>
+        </section>
         {reposData.map((value) => {
           return (
             <div className="reposList">
-              <p>{value.repoName}</p>
+              <span>{value.repoName}</span>
+              <span className="visibilty">{value.visibilty}</span>
+              <p>
+              <span class="dot"></span><span>{value.techStack}</span>
+                <span>{value.updation}</span>
+              </p>
             </div>
           );
         })}
